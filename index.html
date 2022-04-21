@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/159a6dab3f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"> <img src="images/logo.png" > </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -23,6 +26,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -36,6 +40,189 @@
         </div>
 
     </section>
-    
+
+    <section>
+<!-----course------>
+        <section class="course">
+            <h1>Course We offer</h1>
+            <p> We offer lashes and brows, much more too</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen
+                        book.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post graduation</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen
+                        book.</p>
+                </div>
+            </div>
+
+        </section>
+
+<!-----campus-->
+
+
+    <section class="campus">
+        <h1>Our Global Campus </h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard</p>
+
+
+        <div class="row" >
+            <div class="campus-col">
+                <img src="images/london.png" >
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            
+            </div>
+        </div>
+        
+
+    </section>
+
+<!-------facilities-->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" >
+            <h3>World Class library</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>tasty and healthy food </h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </p>
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="testimonials">
+    <h1>What our students say</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industrys</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg" >
+            <div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <h3>Christine Berkley</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+        </div>
+        
+         <div class="testimonial-col">
+            <img src="images/user2.jpg" >
+            <div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                </p>
+                <h3>David Byer</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<section class="cta">
+    <h1>Enroll ofr our various online course <br> anywhere from the world</h1>
+    <a href="" class="hero-btn"> CONTACT US</a>
+
+
+
+
+</section >
+   
+<section class="footer">
+    <h4>About Us </h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard <br>
+    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen
+    book</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        
+</section>
+
+
+    <!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
 </body>
 </html>
