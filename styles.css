@@ -597,3 +597,32 @@ h3 {
     
 }
 
+
+
+.schedule_div {
+    margin-left: 30%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.schedule-btn{
+    font-size: 50px;
+    border: 3px solid #222;
+}
+
+
+@media(max-width: 700px) {
+
+
+    .schedule_div {
+        margin-left: 10%;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    .schedule-btn {
+        font-size: 20px;
+        border: 3px solid #222;
+    }
+   
+}
