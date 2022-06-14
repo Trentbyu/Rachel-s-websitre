@@ -146,11 +146,12 @@ nav .fa{
 }
 
 
-.course {
+.Class {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 0px;
 
 }
 
@@ -175,11 +176,11 @@ p {
     justify-content: space-between;
 }
 
-.course-col {
+.Class-col {
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -191,8 +192,8 @@ h3 {
     margin: 10px 0;
 }
 
-.course-col:hover {
-    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+.Class-col:hover {
+    box-shadow: 0 20px 0px rgb(0, 0, 0, 0.2);
 }
 
 @media(max-width: 700px) {
@@ -264,7 +265,7 @@ h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    
 }
 .facilities-col{
     flex-basis: 31%;
