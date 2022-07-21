@@ -170,6 +170,17 @@ p {
     padding: 10px;
 }
 
+.para {
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 20px;
+}
+
 .row {
     margin-top: 5%;
     display: flex;
@@ -196,14 +207,102 @@ h3 {
     box-shadow: 0 20px 0px rgb(0, 0, 0, 0.2);
 }
 
-@media(max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
+
+.split {
+
+    width: 100%;
+
+
+}
+
+.movel {
+
+    padding-right: 10%;
+
+
+
+}
+
+.sright {
+    top: -170px;
+    width: 50%;
+    /* height: 400px; */
+    float: right;
+    padding-left: 2%;
+    margin-bottom: -9%;
+
+
+}
+
+.sleft {
+    width: 50%;
+    height: 400px;
+    padding-right: 2%;
+    float: left;
+    margin-bottom: -9%;
+}
+
+hr {
+
+    margin-bottom: 2%;
 }
 
 
 
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+
+
+    .para {
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 35px;
+        padding: 10px;
+    }
+
+
+
+    .split {
+
+        width: 100%;
+
+
+    }
+
+    .movel {
+
+        padding-right: 0%;
+
+
+
+    }
+
+    .sright {
+        top: 70px;
+        margin-bottom: 200px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        width: 100%;
+
+    }
+
+    .sleft {
+        width: 100%;
+        
+
+    }
+    
+
+    .down {
+
+
+        margin-top: 0px;
+    }
+}
 
 
 .campus {
@@ -350,19 +449,19 @@ h3 {
 }
 
 .cta {
-    margin: 100px auto;
+    margin: 10px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/footer.jfif);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(images/April_May_posts.png);
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* border-radius: 10px; */
     text-align: center;
     padding: 100px 0;
 }
 
 .cta h1{
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 125px;
     padding: 0;
    
 }
@@ -371,7 +470,7 @@ h3 {
 
     .cta h1 {
         color: #fff;
-        font-size: 24px;
+        font-size: 28px;
         margin-bottom: 40px;
         padding: 0;
 
